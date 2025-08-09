@@ -343,7 +343,7 @@ button:hover{
 @media (max-width: 768px) {
     header{
         padding: 40px 20px;
-        background-image: url(images/pexels-postiglioni-421129.jpg);
+        background-image: url(pexels-postiglioni-421129.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -454,5 +454,6 @@ button:hover{
 
 
 }
+
 
 
