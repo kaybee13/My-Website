@@ -17,6 +17,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div class="hamburger">&#9776;</div>
             </div>
 
             <section class="contact" data-aos="fade-up">
@@ -53,5 +54,21 @@
             mirror: false, // whether elements should animate out while scrolling past them
         });
     </script>
+     const hamburger = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menu');
+
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                menu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    </script>
 </body>
+
 </html>
