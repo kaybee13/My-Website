@@ -14,17 +14,17 @@
     <header>
         <div class="nav-bar">
             <h1 class="logo">Social Boost Studio</h1>
-        <nav class="menu">
+        <nav class="menu" id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="hamburger">&#9776;</div>
+        <div class="hamburger" id="hamburger">&#9776;</div>
             </div>
 
-        <section class="hero" data.aos="fade-up">
+        <section class="hero" data-aos="fade-up">
             <h2>BOLD STRATEGY. CREATIVE EXECUTION. MEASURABLE IMPACT</h2>
             <p>We're are not just another digital agency, we are your strategic growth partner.
                 Our mission is to build brands that <strong>connect, convert, and stay relevant.</strong>
@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <section class="objective" data.aos="fade-up">
+        <section class="objective" data-aos="fade-up">
         <h2>Our objective</h2>
         <p>We exist to help brands <stong>stand out</strong> in a noisy digital world.
         At social Boost Studio, we blend creativity with data, turning fresh ideas into high-impact campaings that drive real growth</p>
@@ -139,8 +139,8 @@
     </script>
 
 <script>
-     const hamburger = document.getElementByClass('hamburger');
-        const menu = document.getElementByClass('menu');
+     const hamburger = document.getElementById('hamburger');
+        const menu = document.getElementById('menu');
 
         hamburger.addEventListener('click', () => {
             menu.classList.toggle('active');
@@ -150,5 +150,6 @@
 </body>
 
 </html>
+
 
 
