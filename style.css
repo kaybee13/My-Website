@@ -376,17 +376,17 @@ button:hover{
         gap: 10px;
         padding:10px 0;
         align-items: center;
-        width: 100%;
+        
+       
     }
     .menu a{
         display: block;
-        width:100%;
         text-align: center;
         padding: 10px;
     }
         
     .menu.active{
-        display: flex;
+        display: column;
     }
    
     .hero{
@@ -456,6 +456,7 @@ button:hover{
 
 
 }
+
 
 
 
