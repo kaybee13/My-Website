@@ -10,7 +10,7 @@ body{
 header{
 padding: 80px 20px;
 animation: fadeIn 0s ease-in-out forwards;
-background-image: url(images/pexels-postiglioni-421129.jpg);
+background-image: url(pexels-postiglioni-421129.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -107,6 +107,11 @@ header p{
     display: flex;
     list-style: none;
     gap: 30px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 .menu a{
     text-decoration: none;
@@ -354,6 +359,8 @@ button:hover{
     .objective h2{
         color: white
     }
+    objective p{
+        font-size: 10px;
     .nav-bar{
         display: flex;
         align-items: center;
@@ -378,7 +385,7 @@ button:hover{
     }
    
     .hero{
-        text-align: left;
+        text-align: center;
         max-width: 100%;
         margin: 20px;
     }
@@ -388,7 +395,7 @@ button:hover{
 
     }
     .hero p{
-        font-size: 1.1rem;
+        font-size: 15pxrem;
         color: #fff;
         margin-top: 10px;
     }
@@ -432,7 +439,7 @@ button:hover{
         font-size: 14px;
     }
     .logo{
-        font-size: 1.5rem;
+        font-size: 10px;
         margin-bottom: 0;
     }
     
@@ -444,6 +451,7 @@ button:hover{
 
 
 }
+
 
 
 
