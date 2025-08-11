@@ -131,16 +131,13 @@ header p{
     color: white;
     margin: 20px 0;
     text-align: center;
-    background-color: black;
     padding: 20px;
     padding-top: 30px;
-    border-radius: 20px;
-    border: 2px solid white;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 
 }
 .objective:hover{
@@ -149,7 +146,7 @@ header p{
     
 }
 .objective h2{
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 10px;
     color: #ff1493;
 }
@@ -161,10 +158,17 @@ header p{
 
 
 }
+.objective h4{
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+    
 .objective ul{
     list-style-type: none;
     padding-left: 20px;
     margin: 10px 0;
+    font-size: 27px;
 }
 .process{
     font-size: 20px;
@@ -454,6 +458,7 @@ button:hover{
 
 
 }
+
 
 
 
