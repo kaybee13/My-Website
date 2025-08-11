@@ -118,14 +118,6 @@ header p{
 .menu a:hover{
     color: #ff1493;
 }
-.hamburger{
-    display: none;
-    font-size: 28px;
-    cursor: pointer;
-    color: #fff;
-}
-
-
 .objective{
     font-size: 20px;
     color: white;
@@ -366,9 +358,11 @@ button:hover{
     .menu ul{
         flex-direction: column;
         gap: 10px;
+        list-style: none;
     }
     .menu li{
         margin-bottom: 15px;
+        
     }
     .menu a{
         font-size: 1.1rem;
@@ -377,9 +371,7 @@ button:hover{
     .menu.active{
         display: flex;
     }
-    .hamburger{
-        display: block;
-    }
+   
     .hero{
         text-align: left;
         max-width: 100%;
@@ -447,6 +439,7 @@ button:hover{
 
 
 }
+
 
 
 
